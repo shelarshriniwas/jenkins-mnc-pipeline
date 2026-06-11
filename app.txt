@@ -1,1 +1,2 @@
 echo "Hello Git" 
+echo "Version 2" 
