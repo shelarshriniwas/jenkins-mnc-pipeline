@@ -9,7 +9,8 @@ pipeline {
             steps {
 
                 sh '''
-                python3 -m pip install -r requirements.txt
+                python3 -m pip install --upgrade pip
+                pip3 install -r requirements.txt
                 '''
 
             }
@@ -21,7 +22,7 @@ pipeline {
             steps {
 
                 sh '''
-                python3 hello.py
+                python3 app.py
                 '''
             }
 
