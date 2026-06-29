@@ -4,11 +4,15 @@ pipeline {
 
     stages {
 
-        stage('Hello') {
+        stage('Linux Commands') {
 
             steps {
 
-                echo 'Hello from Jenkins Pipeline'
+                sh 'pwd'
+
+                sh 'whoami'
+
+                sh 'date'
 
             }
 
