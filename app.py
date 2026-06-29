@@ -1,3 +1,5 @@
-print("This is python program for poll scm")
-print("This is web hook of github with jenkins ")
-print("This is jenkisn scm handson lab file edit")
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print("Welcome to Jenkins Pipeline")
